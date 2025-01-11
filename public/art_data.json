@@ -1,0 +1,123 @@
+[
+  {
+    "about": {
+      "bio": "Bio text here",
+      "faqs": [
+        {
+          "topic": "LINOCUT INFO",
+          "questions": [
+            {
+              "question": "What kind of paper do you use for your prints?",
+              "answer": "The detail page for each print specifies the paper used, but here is a listing of all papers used, including manufacturer and weight (gsm):\n\u2022 BFK Rives Printmaking Paper, White, 250 gsm\n\u2022 Yasutomo Kozo Paper, Cream, 58 gsm\n\u2022Hosho Paper, White, 80 gsm\n\u2022Kitakata Paper, Natural, 30 gsm"
+            },
+            {
+              "question": "What tools do you use?",
+              "answer": "Pfeil gouges- various sizes"
+            },
+            {
+              "question": "What inks do you use?",
+              "answer": "Find out"
+            },
+            {
+              "question": "What block materials do you use?",
+              "answer": "Unmounted linoleum, Wood (Find out different wood types)"
+            },
+            {
+              "question": "What kind of press do you use?",
+              "answer": "Blick Master Etch Model II Press"
+            }
+          ]
+        },
+        {
+          "topic": "DRAWING AND GICLEE INFO",
+          "questions": [
+            {
+              "question": "Do you have prints available for your original drawings?",
+              "answer": "Yes- I have photographed all original art and offer giclee prints at a much reduced price."
+            },
+            {
+              "question": "What materials do you use for your drawings?",
+              "answer": "Most drawings were created using various sizes of Micron Pigma archival ink pens, and when they contain color either watercolor or archival Prismacolor markers were used. Each detail page lists what has been used."
+            },
+            {
+              "question": "When were your drawings created?",
+              "answer": "The creation date of original drawings span from 2005 to today. Original drawings for linocuts are all recent- made from 2024 to present. Item detail pages will specify creation dates."
+            },
+            {
+              "question": "Do you use any special tools when creating a drawing?",
+              "answer": "No- generally I do very rough sketches to work out compositions and proportions, and then move in with pens- always freehand with no additional tools like rulers, etc."
+            }
+          ]
+        },
+        {
+          "topic": "LASERCUT/3D INFO",
+          "questions": [
+            {
+              "question": "What materials do you use for your lasercut pieces?",
+              "answer": "I use what are called “Proofgrade” materials sold by the Glowforge company, which are high quality materials made specifically for laser cutting and engraving. In some instances I also include hand drawn or printed art on paper, Hex Drive Socket Cap Bolts for fastening layers together, and PLA resin that was printed from my Bambu Lab P1P 3d printer."
+            },
+            {
+              "question": "What equipment do you use for lasercuts, engravings and 3d printing?",
+              "answer": "For lasercuts and engraving I use a Glowforge Pro. In some instances I use my Cricut Maker 3 and my Bambu Labs P1P 3D printer."
+            },
+            {
+              "question": "What software do you use to create designs and 3d components of your work?",
+              "answer": "I use Adobe Illustrator for 2d vector art, and Modo 3D software when working in 3d printing."
+            }
+          ]
+        },
+        {
+          "topic": "GENERAL INFO",
+          "questions": [
+            {
+              "question": "Where are you based?",
+              "answer": "Aliso Viejo, CA"
+            },
+            {
+              "question": "Do you ever participate in art shows?",
+              "answer": "I’m always interested in showing my work, but am not actively approaching galleries at this time.\nIf there is interest in having me participate in an upcoming exhibition, please reach out to me using my contact section."
+            },
+            {
+              "question": "What is the best way to contact you with questions I have about the website?",
+              "answer": "The best way to get in touch is to fill out the contact form that you can access from the main navigation bar above."
+            }
+          ]
+        }
+      ]
+    },
+    "linocuts": {
+      "items": [
+        {
+          "title": "Platonic Solids Linocut Print",
+          "price": "160.00",
+          "description": "Two-color reduction linoleum block hand-printed on ~10\" x 11.5\" sheet of 30gsm kitakata paper. Signed and numbered edition of 14. August 2018.\n\n\nBecause I press my blocks by hand, each print contains slight variances in color and texture. All members of the edition show faint creases in the margins where the paper was pressed over the edges and corners of the block (see photos).",
+          "finePrint": "Benjamin Black\u2028Title: Platonic Solids\u2028Linocut print on paper\u2028Size: 30.3” x 20.4” (77 x 51.9 cm) \u2028Stock: 100% Cotton Rag  Gvarro Canson 250 gr paper, Acid-Free Archival Paper, Deckled Edge. \u2028Signed, embossed and numbered, limited edition of 66. \u2028Poster tube included with each order.\u20282023",
+          "imagePath": "@/linocut/",
+          "images": [
+            {
+              "imageRank": "main",
+              "imageDescription": "Main image",
+              "name": "main.png",
+              "thumb": "main_thumb.png"
+            },
+            {
+              "imageRank": "alt1",
+              "imageDescription": "Image detail #1",
+              "name": "platonicSolids_alt1.png",
+              "thumb": "platonicSolids_alt1_thumb.png"
+            }
+          ]
+        }
+      ]
+    },
+    "drawings": {
+
+    },
+    "lasercuts": {
+
+    },
+    "giclee": {
+
+    }
+  }
+]
