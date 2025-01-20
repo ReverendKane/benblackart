@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { BlackDataProvider } from "@/context/BlackDataContext";
+import Navigation from "@/components/ui/Navigation";
+import Footer from "@/components/ui/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,8 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "The Artwork of Benjamin Black",
-  description: "A collection of fine artwork by Benjamin Black in a variety of mediums.",
+  title: "The Art of Benjamin Black",
+  description:
+    "A collection of fine artwork by Benjamin Black in a variety of mediums.",
 };
 
 export default function RootLayout({
@@ -25,9 +29,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col w-full h-screen`}
       >
-        {children}
+        <BlackDataProvider>
+          <Navigation />
+          {children}
+          <Footer />
+        </BlackDataProvider>
       </body>
     </html>
   );

@@ -1,5 +1,38 @@
 [
   {
+    "homepage": {
+      "heroCarousel": [
+        {
+          "path": "/images/homepage/heroImage_01.webp"
+        },
+        {
+          "path": "/images/homepage/heroImage_02.webp"
+        },
+        {
+          "path": "/images/homepage/heroImage_03.webp"
+        }
+      ],
+      "recentWorks": [
+        {
+          "path": "/images/homepage/featured_01.webp",
+          "title": "Cycles",
+          "description": "Drawing",
+          "destinationPage": "/drawings"
+        },
+        {
+          "path": "/images/homepage/featured_02.webp",
+          "title": "Platonic Solids",
+          "description": "Linocut Print",
+          "destinationPage": "/linocuts"
+        },
+        {
+          "path": "/images/homepage/featured_03.webp",
+          "title": "Composition #1",
+          "description": "3d Lasercut Piece",
+          "destinationPage": "/3dlaser"
+        }
+      ]
+    },
     "about": {
       "bio": "Bio text here",
       "faqs": [
@@ -90,34 +123,100 @@
         {
           "title": "Platonic Solids Linocut Print",
           "price": "160.00",
+          "width": "19",
+          "height": "24",
           "description": "Two-color reduction linoleum block hand-printed on ~10\" x 11.5\" sheet of 30gsm kitakata paper. Signed and numbered edition of 14. August 2018.\n\n\nBecause I press my blocks by hand, each print contains slight variances in color and texture. All members of the edition show faint creases in the margins where the paper was pressed over the edges and corners of the block (see photos).",
           "finePrint": "Benjamin Black\u2028Title: Platonic Solids\u2028Linocut print on paper\u2028Size: 30.3” x 20.4” (77 x 51.9 cm) \u2028Stock: 100% Cotton Rag  Gvarro Canson 250 gr paper, Acid-Free Archival Paper, Deckled Edge. \u2028Signed, embossed and numbered, limited edition of 66. \u2028Poster tube included with each order.\u20282023",
           "imagePath": "@/linocut/",
           "images": [
             {
-              "imageRank": "main",
+              "imageExample": "main",
               "imageDescription": "Main image",
-              "name": "main.png",
-              "thumb": "main_thumb.png"
+              "name": "platonicSolids_main.png",
+              "thumb": "platonicSolids_main_thumb.png"
             },
             {
-              "imageRank": "alt1",
+              "imageExample": "alt1",
               "imageDescription": "Image detail #1",
               "name": "platonicSolids_alt1.png",
               "thumb": "platonicSolids_alt1_thumb.png"
+            }
+          ]
+        },
+        {
+          "title": "Cityscape",
+          "price": "160.00",
+          "width": "14",
+          "height": "17",
+          "description": "Two-color reduction linoleum block hand-printed on ~10\" x 11.5\" sheet of 30gsm kitakata paper. Signed and numbered edition of 14. August 2018.\n\n\nBecause I press my blocks by hand, each print contains slight variances in color and texture. All members of the edition show faint creases in the margins where the paper was pressed over the edges and corners of the block (see photos).",
+          "finePrint": "Benjamin Black\u2028Title: Cityscape\u2028Linocut print on paper\u2028Size: 30.3” x 20.4” (77 x 51.9 cm) \u2028Stock: 100% Cotton Rag  Gvarro Canson 250 gr paper, Acid-Free Archival Paper, Deckled Edge. \u2028Signed, embossed and numbered, limited edition of 66. \u2028Poster tube included with each order.\u20282023",
+          "imagePath": "@/images/linocut/",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "cityscape_main.webp",
+              "thumb": "cityscape_main_thumb.webp"
+            },
+            {
+              "imageExample": "alt1",
+              "imageDescription": "Image detail #1",
+              "name": "cityscape_alt1.webp",
+              "thumb": "cityscape_alt1_thumb.webp"
             }
           ]
         }
       ]
     },
     "drawings": {
-
+      "items": [
+        {
+          "title": "The Moon",
+          "price": "1200.00",
+          "description": "Black archival ink on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "theMoon_main.webp",
+              "thumb": "theMoon_main_thumb.webp"
+            },
+            {
+              "imageExample": "alt1",
+              "imageDescription": "Image detail #1",
+              "name": "theMoon_alt1.webp",
+              "thumb": "theMoon_alt1_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "The Archer",
+          "price": "700.00",
+          "description": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "theArcher_main.webp",
+              "thumb": "theArcher_main_thumb.webp"
+            },
+            {
+              "imageExample": "alt1",
+              "imageDescription": "Image detail #1",
+              "name": "theArcher_alt1.webp",
+              "thumb": "theArcher_alt1_thumb.webp"
+            }
+          ]
+        }
+      ]
     },
     "lasercuts": {
-
     },
     "giclee": {
-
     }
   }
 ]

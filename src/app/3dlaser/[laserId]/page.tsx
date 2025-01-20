@@ -1,14 +1,9 @@
-import {JSX} from "react";
-
 type LaserItemProps = {
-    params: {
-        laserId: string;
-    };
-}
+  params: {
+    laserId: string;
+  };
+};
 
-export default function LaserItem({ params }: LaserItemProps):
-    JSX.Element {
-    return (
-        <h2 className="text-lg">Laser Item {params.laserId}</h2>
-    );
+export default function LaserPage({ params }: LaserItemProps) {
+  return <h2 className="text-lg">Laser Item {params.laserId}</h2>;
 }
