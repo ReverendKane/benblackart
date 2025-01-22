@@ -17,7 +17,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
+        sans: ["InterVariable", ...defaultTheme.fontFamily.sans],
         Poppins: ["Poppins", ...defaultTheme.fontFamily.sans],
         Montserrat: ["Montserrat", ...defaultTheme.fontFamily.sans],
         Oswald: ["Oswald", ...defaultTheme.fontFamily.sans],
@@ -26,6 +26,9 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      aspectRatio: {
+        "3/4": "3 / 4",
       },
     },
   },

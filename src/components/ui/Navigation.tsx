@@ -63,6 +63,7 @@ export default function Navigation() {
                 alt="Black Art Logo"
                 width={45}
                 height={46}
+                onClick={() => handleSectionChange("HomePage")}
               />
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -89,6 +90,7 @@ export default function Navigation() {
                   alt="Black Art Logo"
                   width={45}
                   height={46}
+                  onClick={() => handleSectionChange("HomePage")}
                 />
               </Link>
 
@@ -96,6 +98,7 @@ export default function Navigation() {
                 <div key={key}>
                   <NavigationButton
                     section={key}
+                    matchKey={sections[key]}
                     activeSection={activeSection}
                     targetPage={`/${section}`}
                     onClick={() => handleSectionChange(section)}

@@ -16,10 +16,7 @@ interface RecentWork {
   destinationPage: string;
 }
 
-const pages = [
-  { name: "Projects", href: "#", current: false },
-  { name: "Project Nero", href: "#", current: true },
-];
+const pages = [{ name: "Projects", href: "#", current: true }];
 
 export default function HomePage() {
   const { data } = useBlackData();

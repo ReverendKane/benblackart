@@ -26,13 +26,11 @@ export default function WorkThumbnail({
      *****************/
 
   const handleHoverStart = () => {
-    console.log("Hover start");
     thumbnailAnimation.start({ scale: 0.95, opacity: 0.2 }, { duration: 0.2 });
     textAnimation.start({ opacity: 1 }, { duration: 0.2 });
   };
 
   const handleHoverEnd = () => {
-    console.log("Hover end");
     thumbnailAnimation.start({ scale: 1, opacity: 1 }, { duration: 0.2 });
     textAnimation.start({ opacity: 0 }, { duration: 0.2 });
   };

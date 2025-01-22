@@ -121,18 +121,19 @@
     "linocuts": {
       "items": [
         {
-          "title": "Platonic Solids Linocut Print",
+          "title": "Platonic Solids",
           "price": "160.00",
           "width": "19",
           "height": "24",
           "description": "Two-color reduction linoleum block hand-printed on ~10\" x 11.5\" sheet of 30gsm kitakata paper. Signed and numbered edition of 14. August 2018.\n\n\nBecause I press my blocks by hand, each print contains slight variances in color and texture. All members of the edition show faint creases in the margins where the paper was pressed over the edges and corners of the block (see photos).",
           "finePrint": "Benjamin Black\u2028Title: Platonic Solids\u2028Linocut print on paper\u2028Size: 30.3” x 20.4” (77 x 51.9 cm) \u2028Stock: 100% Cotton Rag  Gvarro Canson 250 gr paper, Acid-Free Archival Paper, Deckled Edge. \u2028Signed, embossed and numbered, limited edition of 66. \u2028Poster tube included with each order.\u20282023",
-          "imagePath": "@/linocut/",
+          "imagePreview": "featured_01.webp",
+          "detailPageIndex": "1",
           "images": [
             {
               "imageExample": "main",
               "imageDescription": "Main image",
-              "name": "platonicSolids_main.png",
+              "name": "platonicSolids_main.webp",
               "thumb": "platonicSolids_main_thumb.png"
             },
             {
@@ -150,19 +151,24 @@
           "height": "17",
           "description": "Two-color reduction linoleum block hand-printed on ~10\" x 11.5\" sheet of 30gsm kitakata paper. Signed and numbered edition of 14. August 2018.\n\n\nBecause I press my blocks by hand, each print contains slight variances in color and texture. All members of the edition show faint creases in the margins where the paper was pressed over the edges and corners of the block (see photos).",
           "finePrint": "Benjamin Black\u2028Title: Cityscape\u2028Linocut print on paper\u2028Size: 30.3” x 20.4” (77 x 51.9 cm) \u2028Stock: 100% Cotton Rag  Gvarro Canson 250 gr paper, Acid-Free Archival Paper, Deckled Edge. \u2028Signed, embossed and numbered, limited edition of 66. \u2028Poster tube included with each order.\u20282023",
-          "imagePath": "@/images/linocut/",
+          "imagePreview": "featured_02.webp",
+          "detailPageIndex": "2",
           "images": [
             {
               "imageExample": "main",
               "imageDescription": "Main image",
               "name": "cityscape_main.webp",
-              "thumb": "cityscape_main_thumb.webp"
+              "thumb": "cityscape_main_thumb.webp",
+              "imageWidth": "640",
+              "imageHeight": "800"
             },
             {
               "imageExample": "alt1",
               "imageDescription": "Image detail #1",
               "name": "cityscape_alt1.webp",
-              "thumb": "cityscape_alt1_thumb.webp"
+              "thumb": "cityscape_alt1_thumb.webp",
+              "imageWidth": "640",
+              "imageHeight": "800"
             }
           ]
         }

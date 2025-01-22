@@ -68,7 +68,7 @@ export default function Footer() {
   return (
     <div className="flex flex-col w-full h-full bg-[#000]">
       <div className="max-w-[1280px] mx-auto w-full">
-        <div className="mt-10 border-t border-white/10 pt-8 ">
+        <div className="mt-10 border-t border-white/20 pt-8 ">
           <div className="flex justify-between mobile:flex-col mobile:items-center mobile:gap-y-24">
             <div id="newsletter" className="flex-col ml-[8px] max-w-[400px]">
               <div>
@@ -119,7 +119,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="ml-[8px] mt-8 border-t border-white/10 pt-8 mb-5 flex-col">
+        <div className="ml-[8px] mt-8 border-t border-white/20 pt-8 mb-5 flex-col">
           <div
             id="socialLinks"
             className="flex gap-x-6 mobile:items-center mobile:justify-center"

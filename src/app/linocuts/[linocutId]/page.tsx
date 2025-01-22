@@ -1,14 +1,15 @@
-import {JSX} from "react";
+import LinocutDetailPage from "@/components/pageAssembly/LinocutDetailPage";
 
-type LinocutItemProps = {
-    params: {
-        linocutId: string;
-    };
-}
+export default async function Page({
+  params,
+}: {
+  params: Promise<{ linocutId: number }>;
+}) {
+  const { linocutId } = await params;
 
-export default function LinocutItem({ params }: LinocutItemProps):
-    JSX.Element {
-    return (
-        <h2 className="text-lg">Linocut Item {params.linocutId}</h2>
-    );
+  return (
+    <main>
+      <LinocutDetailPage exampleId={linocutId - 1} />
+    </main>
+  );
 }
