@@ -68,21 +68,15 @@ export default function LinocutsPage() {
         </ol>
       </nav>
       <div
-        id="linocutTitle"
-        className="items-start font-bold font-sans text-2xl text-[#333] mb-[20px] ml-[8px] mt-[20px] mobile:text-[20px] mobile:mb-[5px]"
-      >
-        Linocut Prints
-      </div>
-      <div
         id="linocutThumbnails"
-        className="grid grid-cols-3 mobile:grid-cols-1 gap-5 mobile:gap-[20px] w-full"
+        className="grid grid-cols-3 mobile:grid-cols-1 gap-5 mobile:gap-[10px] w-full p-2 my-[50px]"
       >
         {linocutData.map((work, index) => (
           <WorkThumbnail
             key={index}
             targetPage={`/linocuts/${work.detailPageIndex}`}
             path={`/images/linocut/detail/${work.imagePreview}`}
-            description="Linocut Print"
+            description="Linocuts"
             title={work.title}
           />
         ))}

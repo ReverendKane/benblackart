@@ -1,14 +1,15 @@
-import {JSX} from "react";
+import DrawingDetailPage from "@/components/pageAssembly/DrawingDetailPage";
 
-type DrawingItemProps = {
-    params: {
-        laserId: string;
-    };
-}
+export default async function Page({
+  params,
+}: {
+  params: Promise<{ drawingId: number }>;
+}) {
+  const { drawingId } = await params;
 
-export default function DrawingItem({ params }: DrawingItemProps):
-    JSX.Element {
-    return (
-        <h2 className="text-lg">Drawing Item {params.laserId}</h2>
-    );
+  return (
+    <main>
+      <DrawingDetailPage exampleId={drawingId - 1} />
+    </main>
+  );
 }

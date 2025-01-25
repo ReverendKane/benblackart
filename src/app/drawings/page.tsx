@@ -1,7 +1,9 @@
-export default function DrawingsPage() {
-    return (
-        <div className="flex items-center justify-center w-full h-screen">
-            <h1 className="font-bold">Drawings Page</h1>
-        </div>
-    )
+import DrawingsPage from "@/components/pageAssembly/DrawingsPage";
+
+export default async function Page() {
+  return (
+    <main>
+      <DrawingsPage />
+    </main>
+  );
 }

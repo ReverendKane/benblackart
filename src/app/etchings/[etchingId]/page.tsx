@@ -1,14 +1,15 @@
-import {JSX} from "react";
+import EtchingDetailPage from "@/components/pageAssembly/EtchingDetailPage";
 
-type EtchingItemProps = {
-    params: {
-        etchingId: string;
-    };
-}
+export default async function Page({
+  params,
+}: {
+  params: Promise<{ etchingId: number }>;
+}) {
+  const { etchingId } = await params;
 
-export default function EtchingItem({ params }: EtchingItemProps):
-    JSX.Element {
-    return (
-        <h2 className="text-lg">Etching Item {params.etchingId}</h2>
-    );
+  return (
+    <main>
+      <EtchingDetailPage exampleId={etchingId - 1} />
+    </main>
+  );
 }

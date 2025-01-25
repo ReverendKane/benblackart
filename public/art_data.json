@@ -41,7 +41,7 @@
           "questions": [
             {
               "question": "What kind of paper do you use for your prints?",
-              "answer": "The detail page for each print specifies the paper used, but here is a listing of all papers used, including manufacturer and weight (gsm):\n\u2022 BFK Rives Printmaking Paper, White, 250 gsm\n\u2022 Yasutomo Kozo Paper, Cream, 58 gsm\n\u2022Hosho Paper, White, 80 gsm\n\u2022Kitakata Paper, Natural, 30 gsm"
+              "answer": "The detail page for each print specifies the paper used, but here is a listing of all papers used, including manufacturer and weight (gsm):\n\u2022 BFK Rives Printmaking Paper, White, 250 gsm\n\u2022 Yasutomo Kozo Paper, Cream, 58 gsm\n\u2022 Hosho Paper, White, 80 gsm\n\u2022 Kitakata Paper, Natural, 30 gsm"
             },
             {
               "question": "What tools do you use?",
@@ -125,10 +125,14 @@
           "price": "160.00",
           "width": "19",
           "height": "24",
-          "description": "Two-color reduction linoleum block hand-printed on ~10\" x 11.5\" sheet of 30gsm kitakata paper. Signed and numbered edition of 14. August 2018.\n\n\nBecause I press my blocks by hand, each print contains slight variances in color and texture. All members of the edition show faint creases in the margins where the paper was pressed over the edges and corners of the block (see photos).",
+          "description": "Linocut print on paper",
+          "fullDescription": "Two-color reduction linoleum block hand-printed on ~10\" x 11.5\" sheet of 30gsm kitakata paper. Signed and numbered edition of 14. August 2018.\n\n\nBecause I press my blocks by hand, each print contains slight variances in color and texture. All members of the edition show faint creases in the margins where the paper was pressed over the edges and corners of the block (see photos).",
           "finePrint": "Benjamin Black\u2028Title: Platonic Solids\u2028Linocut print on paper\u2028Size: 30.3” x 20.4” (77 x 51.9 cm) \u2028Stock: 100% Cotton Rag  Gvarro Canson 250 gr paper, Acid-Free Archival Paper, Deckled Edge. \u2028Signed, embossed and numbered, limited edition of 66. \u2028Poster tube included with each order.\u20282023",
           "imagePreview": "featured_01.webp",
           "detailPageIndex": "1",
+          "imagePath": "@/images/linocut/",
+          "productId": "11",
+          "dimensions": "12 x 24",
           "images": [
             {
               "imageExample": "main",
@@ -149,10 +153,14 @@
           "price": "160.00",
           "width": "14",
           "height": "17",
-          "description": "Two-color reduction linoleum block hand-printed on ~10\" x 11.5\" sheet of 30gsm kitakata paper. Signed and numbered edition of 14. August 2018.\n\n\nBecause I press my blocks by hand, each print contains slight variances in color and texture. All members of the edition show faint creases in the margins where the paper was pressed over the edges and corners of the block (see photos).",
+          "description": "Linocut print on paper",
+          "fullDescription": "Two-color reduction linoleum block hand-printed on ~10\" x 11.5\" sheet of 30gsm kitakata paper. Signed and numbered edition of 14. August 2018.\n\n\nBecause I press my blocks by hand, each print contains slight variances in color and texture. All members of the edition show faint creases in the margins where the paper was pressed over the edges and corners of the block (see photos).",
           "finePrint": "Benjamin Black\u2028Title: Cityscape\u2028Linocut print on paper\u2028Size: 30.3” x 20.4” (77 x 51.9 cm) \u2028Stock: 100% Cotton Rag  Gvarro Canson 250 gr paper, Acid-Free Archival Paper, Deckled Edge. \u2028Signed, embossed and numbered, limited edition of 66. \u2028Poster tube included with each order.\u20282023",
           "imagePreview": "featured_02.webp",
           "detailPageIndex": "2",
+          "imagePath": "@/images/linocut/",
+          "dimensions": "12 x 24",
+          "productId": "12",
           "images": [
             {
               "imageExample": "main",
@@ -178,10 +186,14 @@
       "items": [
         {
           "title": "The Moon",
+          "dimensions": "19 x 24 inches",
           "price": "1200.00",
           "description": "Black archival ink on bristol paper.",
           "paper": "Strathmore 100lb. Bristol",
           "imagePath": "@/images/drawings/",
+          "imagePreview": "theMoon_preview.webp",
+          "detailPageIndex": "1",
+          "productId": "21",
           "images": [
             {
               "imageExample": "main",
@@ -199,10 +211,16 @@
         },
         {
           "title": "The Archer",
+          "dimensions": "11 x 14 inches",
           "price": "700.00",
           "description": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
           "paper": "Strathmore 100lb. Bristol",
           "imagePath": "@/images/drawings/",
+          "imagePreview": "theArcher_preview.webp",
+          "detailPageIndex": "2",
+          "productId": "22",
+          "width": "640",
+          "height": "779",
           "images": [
             {
               "imageExample": "main",
@@ -221,8 +239,120 @@
       ]
     },
     "lasercuts": {
+      "items": [
+        {
+          "title": "The Eclipse",
+          "dimensions": "14 x 11 inches",
+          "price": "150.00",
+          "description": "Lasercut vinyl",
+          "imagePath": "@/images/lasercut/",
+          "imagePreview": "theEclipse_preview.webp",
+          "detailPageIndex": "1",
+          "productId": "31",
+          "width": "640",
+          "height": "493",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "theEclipse_main.webp",
+              "thumb": "theEclipse_main_thumb.webp"
+            },
+            {
+              "imageExample": "alt1",
+              "imageDescription": "Image detail #1",
+              "name": "theEclipse_alt1.webp",
+              "thumb": "theEclipse_alt1_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Stained Glass",
+          "dimensions": "14 x 11 inches",
+          "price": "150.00",
+          "description": "Lasercut vinyl",
+          "imagePath": "@/images/lasercut/",
+          "imagePreview": "stainedGlass_preview.webp",
+          "detailPageIndex": "2",
+          "productId": "32",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "stainedGlass_main.webp",
+              "thumb": "stainedGlass_main_thumb.webp"
+            },
+            {
+              "imageExample": "alt1",
+              "imageDescription": "Image detail #1",
+              "name": "stainedGlass_alt1.webp",
+              "thumb": "stainedGlass_alt1_thumb.webp"
+            }
+          ]
+        }
+      ]
+    },
+    "etchings": {
+      "items": [
+        {
+          "title": "Rainy Days",
+          "dimensions": "14 x 11 inches",
+          "price": "150.00",
+          "description": "Pressed ink on paper",
+          "imagePath": "@/images/etchings/",
+          "imagePreview": "rainyDays_preview.webp",
+          "detailPageIndex": "1",
+          "productId": "41",
+          "width": "640",
+          "height": "841",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "rainyDays_main.webp",
+              "thumb": "rainyDays_main_thumb.webp"
+            },
+            {
+              "imageExample": "alt1",
+              "imageDescription": "Image detail #1",
+              "name": "theWave_alt1.webp",
+              "thumb": "theWave_alt1_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "The Wave",
+          "dimensions": "14 x 11 inches",
+          "price": "150.00",
+          "description": "Pressed ink on paper",
+          "imagePath": "@/images/etchings/",
+          "imagePreview": "theWave_preview.webp",
+          "detailPageIndex": "2",
+          "productId": "42",
+          "width": "640",
+          "height": "430",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "theWave_main.webp",
+              "thumb": "stainedGlass_main_thumb.webp"
+            },
+            {
+              "imageExample": "alt1",
+              "imageDescription": "Image detail #1",
+              "name": "stainedGlass_alt1.webp",
+              "thumb": "stainedGlass_alt1_thumb.webp"
+            }
+          ]
+        }
+      ]
     },
     "giclee": {
+      "items": [
+        {
+        }
+      ]
     }
   }
 ]

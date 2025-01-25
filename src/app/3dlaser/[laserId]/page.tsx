@@ -1,9 +1,15 @@
-type LaserItemProps = {
-  params: {
-    laserId: string;
-  };
-};
+import LasercutDetailPage from "@/components/pageAssembly/LasercutDetailPage";
 
-export default function LaserPage({ params }: LaserItemProps) {
-  return <h2 className="text-lg">Laser Item {params.laserId}</h2>;
+export default async function Page({
+  params,
+}: {
+  params: Promise<{ laserId: number }>;
+}) {
+  const { laserId } = await params;
+
+  return (
+    <main>
+      <LasercutDetailPage exampleId={laserId - 1} />
+    </main>
+  );
 }

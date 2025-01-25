@@ -1,7 +1,9 @@
-export default function EtchingsPage() {
-    return (
-        <div className="flex items-center justify-center w-full h-screen">
-            <h1 className="font-bold">Etchings Page</h1>
-        </div>
-    )
+import EtchingsPage from "@/components/pageAssembly/EtchingsPage";
+
+export default async function Page() {
+  return (
+    <main>
+      <EtchingsPage />
+    </main>
+  );
 }
