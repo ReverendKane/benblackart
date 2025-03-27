@@ -16,13 +16,13 @@ export default function HaveQuestionsWidget() {
 
   return (
     <div>
-      <div className="font-bold font-sans text-[#aaa] text-[11pt] mt-[80px]">
+      <div className="font-bold font-sans text-[#aaa] text-[10pt] mt-[25px]">
         Have questions about this item?
       </div>
       <Link href="/contact" passHref={true}>
         <motion.div
           id="sendMessageButton"
-          className="flex w-[160px] h-[40px] outline outline-2 outline-[#aaa] rounded-sm text-[12pt] text-[#aaa] font-sans font-bold items-center justify-center mt-[8px] cursor-pointer"
+          className="flex w-[130px] h-[30px] outline outline-2 outline-[#aaa] rounded-sm text-[10pt] text-[#aaa] font-sans font-bold items-center justify-center mt-[8px] mb-[25px] cursor-pointer"
           animate={hoverAnimation}
           onHoverStart={() => hoverStart()}
           onHoverEnd={() => hoverEnd()}

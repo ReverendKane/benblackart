@@ -152,7 +152,11 @@ export default function EtchingDetailPage({ exampleId }: DetailId) {
               >
                 ${etchingData?.price}
               </div>
-              <SetPurchaseWidget productId={etchingData?.productId} />
+              <SetPurchaseWidget
+                productId={etchingData?.productId}
+                selectedOption={undefined}
+                selectedSize={undefined}
+              />
               <div className="font-bold font-sans text-[#aaa] text-[12pt] mt-[40px]">
                 Description
               </div>

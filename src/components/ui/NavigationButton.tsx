@@ -30,6 +30,10 @@ export default function NavigationButton({
   }, [activeSection]);
 
   useEffect(() => {
+    console.log("MatchKey: ", matchKey);
+  }, []);
+
+  useEffect(() => {
     if (isEnabled) {
       handleHoverEnd();
     } else {

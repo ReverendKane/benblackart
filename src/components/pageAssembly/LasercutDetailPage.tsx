@@ -116,44 +116,6 @@ export default function LasercutDetailPage({ exampleId }: DetailId) {
             </div>
           </div>
         </div>
-        {/*<div id="lasercutEntryImages" className="flex-1 relative">*/}
-        {/*  <div id="productImages" className="w-full flex flex-col items-center">*/}
-        {/*    <div className="w-full max-w-[640px] relative">*/}
-        {/*      <div id="heroImage" className="w-full relative overflow-visible">*/}
-        {/*        <Image*/}
-        {/*          src={`/images/lasercut/main/${lasercutData?.images?.[0]?.name ?? ""}`}*/}
-        {/*          alt={`Recent work Example: ${lasercutData?.title ?? "Unknown"}`}*/}
-        {/*          width={640}*/}
-        {/*          height={lasercutData?.height || 640}*/}
-        {/*          className="object-cover shadow-md shadow-gray-800/70"*/}
-        {/*          sizes="(max-width: 640px) 100vw, 33vw"*/}
-        {/*          onLoad={() => setImageLoaded(true)}*/}
-        {/*          onError={() => console.error("Failed to load image")}*/}
-        {/*        />*/}
-        {/*      </div>*/}
-        {/*      <div*/}
-        {/*        id="imageThumbnails"*/}
-        {/*        className="w-full flex flex-row justify-start items-center pt-[10px] gap-2 ml-[8px]"*/}
-        {/*      >*/}
-        {/*        {(lasercutData?.images ?? []).map((image, index) => (*/}
-        {/*          <div*/}
-        {/*            key={index}*/}
-        {/*            className="h-[80px] w-[80px] bg-gray-300 hover:bg-gray-400 cursor-pointer"*/}
-        {/*          >*/}
-        {/*            <Image*/}
-        {/*              src={`/images/lasercut/thumb/${lasercutData?.images?.[index]?.thumb ?? ""}`}*/}
-        {/*              alt={`Thumbnail ${index + 1}`}*/}
-        {/*              width={80}*/}
-        {/*              height={80}*/}
-        {/*              className="object-cover"*/}
-        {/*            />*/}
-        {/*          </div>*/}
-        {/*        ))}*/}
-        {/*      </div>*/}
-        {/*    </div>*/}
-        {/*  </div>*/}
-        {/*</div>*/}
-
         <div id="lasercutInfo" className="flex-1 flex flex-col h-full ">
           <div id="topInfoContainer" className="flex flex-col px-[8px]">
             <div className="flex flex-col w-full mt-[10px] mobile:mt-[10px]">
@@ -182,7 +144,11 @@ export default function LasercutDetailPage({ exampleId }: DetailId) {
               >
                 ${lasercutData?.price}
               </div>
-              <SetPurchaseWidget productId={lasercutData?.productId} />
+              <SetPurchaseWidget
+                productId={lasercutData?.productId}
+                selectedOption={undefined}
+                selectedSize={undefined}
+              />
               <div className="font-bold font-sans text-[#aaa] text-[12pt] mt-[40px]">
                 Description
               </div>

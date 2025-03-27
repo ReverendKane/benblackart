@@ -3,6 +3,29 @@ import { useBlackData } from "@/context/BlackDataContext";
 import React, { useEffect, useState } from "react";
 import _ from "lodash";
 
+// Define interfaces for your data structures
+interface WorkItem {
+  title: string;
+  imagePreview: string;
+  detailPageIndex: string;
+  // Add other properties your actual work items might have
+}
+
+interface WorkTypeConfig {
+  dirName: string;
+  displayName: string;
+  path: string;
+  previewPattern: RegExp;
+}
+
+interface ProcessedWorkItem extends WorkItem {
+  type: string;
+  dirName: string;
+  displayName: string;
+  destinationPath: string;
+  isValid: boolean;
+}
+
 interface ProcessedWork {
   title: string;
   description: string;
@@ -10,18 +33,30 @@ interface ProcessedWork {
   destinationPage: string;
 }
 
+// Your component props type
 type WidgetProps = {
   currentExample: string | undefined;
 };
 
+// Interface for your data structure
+interface BlackData {
+  [index: number]: {
+    linocuts?: { items: WorkItem[] };
+    drawings?: { items: WorkItem[] };
+    etchings?: { items: WorkItem[] };
+    lasercuts?: { items: WorkItem[] };
+    [key: string]: any;
+  };
+}
+
 export default function OtherWorkWidget({ currentExample }: WidgetProps) {
-  const { data } = useBlackData();
+  const { data } = useBlackData() as { data: BlackData | undefined };
   const [workData, setWorkData] = useState<ProcessedWork[]>([]);
 
   useEffect(() => {
     if (data?.[0]) {
       // Define work types with their specific paths and preview patterns
-      const workTypes = {
+      const workTypes: Record<string, WorkTypeConfig> = {
         linocuts: {
           dirName: "linocut",
           displayName: "Linocut",
@@ -49,27 +84,31 @@ export default function OtherWorkWidget({ currentExample }: WidgetProps) {
       };
 
       // Create pool of works with proper validation
-      const allWorks = Object.entries(workTypes).flatMap(([type, config]) => {
-        const items = data[0][type]?.items || [];
-        return items
-          .filter((work) => work.title !== currentExample)
-          .map((work) => ({
-            ...work,
-            type,
-            dirName: config.dirName,
-            displayName: config.displayName,
-            destinationPath: config.path,
-            isValid: config.previewPattern.test(work.imagePreview),
-          }))
-          .filter((work) => work.isValid); // Only include works with valid preview patterns
-      });
+      const allWorks: ProcessedWorkItem[] = Object.entries(workTypes).flatMap(
+        ([type, config]) => {
+          const items = data[0][type]?.items || [];
+          return items
+            .filter((work: WorkItem) => work.title !== currentExample)
+            .map((work: WorkItem) => ({
+              ...work,
+              type,
+              dirName: config.dirName,
+              displayName: config.displayName,
+              destinationPath: config.path,
+              isValid: config.previewPattern.test(work.imagePreview),
+            }))
+            .filter((work: ProcessedWorkItem) => work.isValid); // Only include works with valid preview patterns
+        },
+      );
 
-      const selectedWorks = _.sampleSize(allWorks, 3).map((work) => ({
-        title: work.title,
-        description: work.displayName,
-        path: `/images/${work.dirName}/detail/${work.imagePreview}`,
-        destinationPage: `${work.destinationPath}/${work.detailPageIndex}`,
-      }));
+      const selectedWorks = _.sampleSize(allWorks, 3).map(
+        (work: ProcessedWorkItem) => ({
+          title: work.title,
+          description: work.displayName,
+          path: `/images/${work.dirName}/detail/${work.imagePreview}`,
+          destinationPage: `${work.destinationPath}/${work.detailPageIndex}`,
+        }),
+      );
 
       setWorkData(selectedWorks);
     }

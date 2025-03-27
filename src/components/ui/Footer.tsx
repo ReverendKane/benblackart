@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, SVGProps } from "react";
 
 const navigation = {
   social: [
     {
       name: "Facebook",
       href: "#",
-      icon: (props) => (
+      icon: (props: SVGProps<SVGSVGElement>) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
             fillRule="evenodd"
@@ -18,7 +18,7 @@ const navigation = {
     {
       name: "Pinterest",
       href: "#",
-      icon: (props) => (
+      icon: (props: SVGProps<SVGSVGElement>) => (
         <svg fill="currentColor" viewBox="0 0 24.02 23.61" {...props}>
           <g id="Layer_1-2" data-name="Layer 1">
             <path d="M11.94,0C5.29,0,0,5.29,0,11.94s2.99,9.09,7.06,10.86c0-.81,0-1.76.27-2.71s1.49-6.51,1.49-6.51c0,0-.41-.81-.41-1.9,0-1.76,1.09-3.12,2.31-3.12s1.63.81,1.63,1.76-.68,2.71-1.09,4.21c-.27,1.22.68,2.31,1.9,2.31,2.31,0,3.8-2.85,3.8-6.38s-1.76-4.61-4.89-4.61-5.84,2.71-5.84,5.7.27,1.76.81,2.31c.27.27.27.41.14.68,0,.27-.14.68-.27.95,0,.27-.27.41-.54.27-1.63-.68-2.44-2.44-2.44-4.48,0-3.39,2.85-7.46,8.55-7.46s7.46,3.26,7.46,6.79-2.58,8.14-6.38,8.14-2.44-.68-2.85-1.49l-.81,3.26c-.27.95-.68,1.9-1.22,2.58,1.09.27,2.17.54,3.39.54,6.51,0,11.94-5.29,11.94-11.94S18.46,0,11.94,0Z" />
@@ -29,7 +29,7 @@ const navigation = {
     {
       name: "Instagram",
       href: "#",
-      icon: (props) => (
+      icon: (props: SVGProps<SVGSVGElement>) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
             fillRule="evenodd"
@@ -42,7 +42,7 @@ const navigation = {
     {
       name: "X",
       href: "#",
-      icon: (props) => (
+      icon: (props: SVGProps<SVGSVGElement>) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path d="M13.6823 10.6218L20.2391 3H18.6854L12.9921 9.61788L8.44486 3H3.2002L10.0765 13.0074L3.2002 21H4.75404L10.7663 14.0113L15.5685 21H20.8131L13.6819 10.6218H13.6823ZM11.5541 13.0956L10.8574 12.0991L5.31391 4.16971H7.70053L12.1742 10.5689L12.8709 11.5655L18.6861 19.8835H16.2995L11.5541 13.096V13.0956Z" />
         </svg>
@@ -51,7 +51,7 @@ const navigation = {
     {
       name: "YouTube",
       href: "#",
-      icon: (props) => (
+      icon: (props: SVGProps<SVGSVGElement>) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
             fillRule="evenodd"

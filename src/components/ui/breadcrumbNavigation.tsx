@@ -1,6 +1,8 @@
+"use client";
+
 import Link from "next/link";
 import { HomeIcon } from "@heroicons/react/20/solid";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 type Page = {
   name: string;
@@ -13,8 +15,22 @@ type PageProps = {
 };
 
 export default function BreadcrumbNavigation({ pages }: PageProps) {
+  const [overviewPage, setOverviewPage] = useState("");
+
+  useEffect(() => {
+    if (pages && pages.length > 0) {
+      const pathValue = pages[0].href;
+      if (pages.length > 1) {
+        setOverviewPage(pathValue);
+      }
+    }
+  }, [pages]);
+
   return (
-    <nav aria-label="Breadcrumb" className="flex w-full items-start ml-[28px]">
+    <nav
+      aria-label="Breadcrumb"
+      className="flex w-full justify-between items-start ml-[28px]"
+    >
       <ol role="list" className="flex items-center space-x-4">
         <li>
           <div>
@@ -46,6 +62,15 @@ export default function BreadcrumbNavigation({ pages }: PageProps) {
           </li>
         ))}
       </ol>
+      {overviewPage && (
+        <a
+          id="backToOverview"
+          className="flex justify-end font-Outfit font-bold text-[9pt] text-gray-400 hover:text-gray-500 mr-[65px] cursor-pointer"
+          href={overviewPage}
+        >
+          Back to Overview
+        </a>
+      )}
     </nav>
   );
 }

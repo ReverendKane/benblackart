@@ -69,6 +69,10 @@
               "answer": "Yes- I have photographed all original art and offer giclee prints at a much reduced price."
             },
             {
+              "question": "What kind of printer are you using for your giclee prints?",
+              "answer": "I have a Epson T7270 Large Format Printer. This printer uses the Epson UltraChrome pigment ink set, and prints are made on Moab Entrada Rag fine art paper- 24 inch roll."
+            },
+            {
               "question": "What materials do you use for your drawings?",
               "answer": "Most drawings were created using various sizes of Micron Pigma archival ink pens, and when they contain color either watercolor or archival Prismacolor markers were used. Each detail page lists what has been used."
             },
@@ -138,13 +142,7 @@
               "imageExample": "main",
               "imageDescription": "Main image",
               "name": "platonicSolids_main.webp",
-              "thumb": "platonicSolids_main_thumb.png"
-            },
-            {
-              "imageExample": "alt1",
-              "imageDescription": "Image detail #1",
-              "name": "platonicSolids_alt1.png",
-              "thumb": "platonicSolids_alt1_thumb.png"
+              "thumb": "platonicSolids_main_thumb.webp"
             }
           ]
         },
@@ -186,9 +184,12 @@
       "items": [
         {
           "title": "The Moon",
-          "dimensions": "19 x 24 inches",
-          "price": "1200.00",
-          "description": "Black archival ink on bristol paper.",
+          "creationDate": "2008",
+          "originalDimensions": "19 x 24\"",
+          "originalPrice": "1200.00",
+          "gicleePrice": "60.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Black archival ink on Strathmore 300 Series Bristol acid-free paper (270 gsm).",
           "paper": "Strathmore 100lb. Bristol",
           "imagePath": "@/images/drawings/",
           "imagePreview": "theMoon_preview.webp",
@@ -200,43 +201,964 @@
               "imageDescription": "Main image",
               "name": "theMoon_main.webp",
               "thumb": "theMoon_main_thumb.webp"
-            },
-            {
-              "imageExample": "alt1",
-              "imageDescription": "Image detail #1",
-              "name": "theMoon_alt1.webp",
-              "thumb": "theMoon_alt1_thumb.webp"
             }
           ]
         },
         {
           "title": "The Archer",
-          "dimensions": "11 x 14 inches",
-          "price": "700.00",
-          "description": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "creationDate": "2009",
+          "originalDimensions": "11 x 14\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
           "paper": "Strathmore 100lb. Bristol",
           "imagePath": "@/images/drawings/",
           "imagePreview": "theArcher_preview.webp",
           "detailPageIndex": "2",
           "productId": "22",
-          "width": "640",
-          "height": "779",
           "images": [
             {
               "imageExample": "main",
               "imageDescription": "Main image",
               "name": "theArcher_main.webp",
               "thumb": "theArcher_main_thumb.webp"
-            },
+            }
+          ]
+        },
+        {
+          "title": "Prometheus",
+          "creationDate": "2009",
+          "originalDimensions": "9 x 12\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "prometheus_preview.webp",
+          "detailPageIndex": "3",
+          "productId": "23",
+          "images": [
             {
-              "imageExample": "alt1",
-              "imageDescription": "Image detail #1",
-              "name": "theArcher_alt1.webp",
-              "thumb": "theArcher_alt1_thumb.webp"
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "prometheus_main.webp",
+              "thumb": "prometheus_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Three Stars",
+          "creationDate": "2009",
+          "originalDimensions": "9 x 12\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "threeStars_preview.webp",
+          "detailPageIndex": "4",
+          "productId": "24",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "threeStars_main.webp",
+              "thumb": "threeStars_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Windy Days",
+          "creationDate": "2009",
+          "originalDimensions": "11 x 14\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "windyDays_preview.webp",
+          "detailPageIndex": "5",
+          "productId": "25",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "windyDays_main.webp",
+              "thumb": "windyDays_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Outside In",
+          "creationDate": "2009",
+          "originalDimensions": "11 x 14\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "outsideIn_preview.webp",
+          "detailPageIndex": "6",
+          "productId": "26",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "outsideIn_main.webp",
+              "thumb": "outsideIn_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Broken",
+          "creationDate": "2009",
+          "originalDimensions": "11 x 14\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "broken_preview.webp",
+          "detailPageIndex": "7",
+          "productId": "27",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "broken_main.webp",
+              "thumb": "broken_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Metatrons Cube",
+          "creationDate": "2009",
+          "originalDimensions": "11 x 14\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "metatronsCube_preview.webp",
+          "detailPageIndex": "8",
+          "productId": "28",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "metatronsCube_main.webp",
+              "thumb": "metatronsCube_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Monument",
+          "creationDate": "2009",
+          "originalDimensions": "19 x 24\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "monument_preview.webp",
+          "detailPageIndex": "9",
+          "productId": "29",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "monument_main.webp",
+              "thumb": "monument_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Repose",
+          "creationDate": "2009",
+          "originalDimensions": "19 x 24\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "repose_preview.webp",
+          "detailPageIndex": "10",
+          "productId": "30",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "repose_main.webp",
+              "thumb": "repose_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Swirling Thoughts",
+          "creationDate": "2009",
+          "originalDimensions": "19 x 24\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "swirlingThoughts_preview.webp",
+          "detailPageIndex": "11",
+          "productId": "31",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "swirlingThoughts_main.webp",
+              "thumb": "swirlingThoughts_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Taken",
+          "creationDate": "2009",
+          "originalDimensions": "19 x 24\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "taken_preview.webp",
+          "detailPageIndex": "12",
+          "productId": "32",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "taken_main.webp",
+              "thumb": "taken_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Visitor",
+          "creationDate": "2009",
+          "originalDimensions": "11 x 14\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "visitor_preview.webp",
+          "detailPageIndex": "13",
+          "productId": "33",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "visitor_main.webp",
+              "thumb": "visitor_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Lake Doster",
+          "creationDate": "2009",
+          "originalDimensions": "11 x 14\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "lakeDoster_preview.webp",
+          "detailPageIndex": "14",
+          "productId": "34",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "lakeDoster_main.webp",
+              "thumb": "lakeDoster_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Cellular",
+          "creationDate": "2009",
+          "originalDimensions": "11 x 14\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "cellular_preview.webp",
+          "detailPageIndex": "15",
+          "productId": "35",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "cellular_main.webp",
+              "thumb": "cellular_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Aligned",
+          "creationDate": "2009",
+          "originalDimensions": "19 x 24\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "aligned_preview.webp",
+          "detailPageIndex": "16",
+          "productId": "36",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "aligned_main.webp",
+              "thumb": "aligned_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "New Religion",
+          "creationDate": "2009",
+          "originalDimensions": "19 x 24\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "newReligion_preview.webp",
+          "detailPageIndex": "17",
+          "productId": "37",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "newReligion_main.webp",
+              "thumb": "newReligion_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Panda",
+          "creationDate": "2009",
+          "originalDimensions": "19 x 24\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "panda_preview.webp",
+          "detailPageIndex": "18",
+          "productId": "38",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "panda_main.webp",
+              "thumb": "panda_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Relic",
+          "creationDate": "2009",
+          "originalDimensions": "11 x 14\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "relic_preview.webp",
+          "detailPageIndex": "19",
+          "productId": "39",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "relic_main.webp",
+              "thumb": "relic_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "First Day",
+          "creationDate": "2009",
+          "originalDimensions": "14 x 11\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "firstDay_preview.webp",
+          "detailPageIndex": "20",
+          "productId": "40",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "firstDay_main.webp",
+              "thumb": "firstDay_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "The Death Mask",
+          "creationDate": "2009",
+          "originalDimensions": "11 x 14\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "theDeathMask_preview.webp",
+          "detailPageIndex": "21",
+          "productId": "41",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "theDeathMask_main.webp",
+              "thumb": "theDeathMask_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Shattered",
+          "creationDate": "2009",
+          "originalDimensions": "19 x 24\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "shattered_preview.webp",
+          "detailPageIndex": "22",
+          "productId": "42",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "shattered_main.webp",
+              "thumb": "shattered_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Mother and Child",
+          "creationDate": "2009",
+          "originalDimensions": "11 x 14\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "motherAndChild_preview.webp",
+          "detailPageIndex": "23",
+          "productId": "43",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "motherAndChild_main.webp",
+              "thumb": "motherAndChild_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Phoenix",
+          "creationDate": "2009",
+          "originalDimensions": "11 x 11\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "phoenix_preview.webp",
+          "detailPageIndex": "24",
+          "productId": "44",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "phoenix_main.webp",
+              "thumb": "phoenix_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Silence",
+          "creationDate": "2009",
+          "originalDimensions": "9 x 12\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "silence_preview.webp",
+          "detailPageIndex": "25",
+          "productId": "45",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "silence_main.webp",
+              "thumb": "silence_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Storm Warning",
+          "creationDate": "2009",
+          "originalDimensions": "9 x 12\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "stormWarning_preview.webp",
+          "detailPageIndex": "26",
+          "productId": "46",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "stormWarning_main.webp",
+              "thumb": "stormWarning_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "The Last Dance",
+          "creationDate": "2009",
+          "originalDimensions": "11 x 14\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "theLastDance_preview.webp",
+          "detailPageIndex": "27",
+          "productId": "47",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "theLastDance_main.webp",
+              "thumb": "theLastDance_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Always",
+          "creationDate": "2009",
+          "originalDimensions": "11 x 14\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "always_preview.webp",
+          "detailPageIndex": "28",
+          "productId": "48",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "always_main.webp",
+              "thumb": "always_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "War Torn",
+          "creationDate": "2009",
+          "originalDimensions": "11 x 14\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "warTorn_preview.webp",
+          "detailPageIndex": "29",
+          "productId": "49",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "warTorn_main.webp",
+              "thumb": "warTorn_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Planted",
+          "creationDate": "2009",
+          "originalDimensions": "9 x 12\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "planted_preview.webp",
+          "detailPageIndex": "30",
+          "productId": "50",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "planted_main.webp",
+              "thumb": "planted_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Apart",
+          "creationDate": "2009",
+          "originalDimensions": "11 x 14\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "apart_preview.webp",
+          "detailPageIndex": "31",
+          "productId": "51",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "apart_main.webp",
+              "thumb": "apart_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Slowly",
+          "creationDate": "2009",
+          "originalDimensions": "9 x 12\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink, brown india ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "slowly_preview.webp",
+          "detailPageIndex": "32",
+          "productId": "52",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "slowly_main.webp",
+              "thumb": "slowly_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Her and I",
+          "creationDate": "2009",
+          "originalDimensions": "9 x 12\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink, brown india ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "herAndI_preview.webp",
+          "detailPageIndex": "33",
+          "productId": "53",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "herAndI_main.webp",
+              "thumb": "herAndI_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Into the Sunset",
+          "creationDate": "2009",
+          "originalDimensions": "14 x 11\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink, pencil and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "intoTheSunset_preview.webp",
+          "detailPageIndex": "34",
+          "productId": "54",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "intoTheSunset_main.webp",
+              "thumb": "intoTheSunset_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Chair",
+          "creationDate": "2009",
+          "originalDimensions": "11 x 14\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "chair_preview.webp",
+          "detailPageIndex": "35",
+          "productId": "55",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "chair_main.webp",
+              "thumb": "chair_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Ganesh",
+          "creationDate": "2009",
+          "originalDimensions": "11 x 14\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "ganesh_preview.webp",
+          "detailPageIndex": "36",
+          "productId": "56",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "ganesh_main.webp",
+              "thumb": "ganesh_main_thumb.webp"
+            }
+          ]
+        },
+        {
+          "title": "Reflection",
+          "creationDate": "2009",
+          "originalDimensions": "11 x 14\"",
+          "originalPrice": "700.00",
+          "gicleePrice": "40.00",
+          "gicleeDescription": "High quality giclee print",
+          "originalDescription": "Micron Pigma black archival ink and Prismacolor markers on bristol paper.",
+          "paper": "Strathmore 100lb. Bristol",
+          "imagePath": "@/images/drawings/",
+          "imagePreview": "reflection_preview.webp",
+          "detailPageIndex": "37",
+          "productId": "57",
+          "images": [
+            {
+              "imageExample": "main",
+              "imageDescription": "Main image",
+              "name": "reflection_main.webp",
+              "thumb": "reflection_main_thumb.webp"
             }
           ]
         }
-      ]
+      ],
+      "gicleeSizes": {
+        "9 x 12": [
+          {
+            "name": "small",
+            "paper": "Hahnemuhle Matte Photo Rag (308 gsm)",
+            "ink": "Epson UltraChrome XD Archival Ink",
+            "paperSize": "6 x 8\"",
+            "imageArea": "4.5 x 6\"",
+            "margins": ".75\"",
+            "price": "30.00",
+            "editionInfo": "This print size is offered as an open edition. These prints are signed but not numbered, and may be reprinted in the future."
+          },
+          {
+            "name": "fullSize",
+            "paper": "Hahnemuhle Matte Photo Rag (308 gsm)",
+            "ink": "Epson UltraChrome XD Archival Ink",
+            "paperSize": "12 x 15\"",
+            "imageArea": "9 x 12\"",
+            "margins": "1.5\"",
+            "price": "70.00",
+            "editionInfo": "Full size prints are offered as a limited edition (25 total). Each print in this edition is individually signed and numbered by the artist, and comes with a Certificate of Authenticity. Once the edition is sold out, no further full-size reproductions will be made."
+          }
+        ],
+        "19 x 24": [
+          {
+            "name": "small",
+            "paper": "Hahnemuhle Matte Photo Rag (308 gsm)",
+            "ink": "Epson UltraChrome XD Archival Ink",
+            "paperSize": "8 x 10\"",
+            "imageArea": "6.75 x 8.5\"",
+            "margins": ".625\"",
+            "price": "40.00",
+            "editionInfo": "This print size is offered as an open edition. These prints are signed but not numbered, and may be reprinted in the future."
+          },
+          {
+            "name": "medium",
+            "paper": "Hahnemuhle Matte Photo Rag (308 gsm)",
+            "ink": "Epson UltraChrome XD Archival Ink",
+            "paperSize": "11 x 14\"",
+            "imageArea": "9 x 12\"",
+            "margins": "1\"",
+            "price": "60.00",
+            "editionInfo": "This print size is offered as an open edition. These prints are signed but not numbered, and may be reprinted in the future."
+          },
+          {
+            "name": "large",
+            "paper": "Hahnemuhle Matte Photo Rag (308 gsm)",
+            "ink": "Epson UltraChrome XD Archival Ink",
+            "paperSize": "16 x 20\"",
+            "imageArea": "12 x 18\"",
+            "margins": "1.5\" top/sides, 2\" bottom",
+            "price": "90.00",
+            "editionInfo": "This print size is offered as an open edition. These prints are signed but not numbered, and may be reprinted in the future."
+          },
+          {
+            "name": "fullSize",
+            "paper": "Hahnemuhle Matte Photo Rag (308 gsm)",
+            "ink": "Epson UltraChrome XD Archival Ink",
+            "paperSize": "19 x 24\"",
+            "imageArea": "17 x 22\"",
+            "margins": "1\"",
+            "price": "150.00",
+            "editionInfo": "Full size prints are offered as a limited edition (50 total). Each print in this edition is individually signed and numbered by the artist, and comes with a Certificate of Authenticity. Once the edition is sold out, no further full-size reproductions will be made."
+          }
+        ],
+        "11 x 14": [
+          {
+            "name": "small",
+            "paper": "Hahnemuhle Matte Photo Rag (308 gsm)",
+            "ink": "Epson UltraChrome XD Archival Ink",
+            "paperSize": "8 x 10\"",
+            "imageArea": "6.25 x 8\"",
+            "margins": "0.875\u20131\"",
+            "price": "30.00",
+            "editionInfo": "This print size is offered as an open edition. These prints are signed but not numbered, and may be reprinted in the future."
+          },
+          {
+            "name": "medium",
+            "paper": "Hahnemuhle Matte Photo Rag (308 gsm)",
+            "ink": "Epson UltraChrome XD Archival Ink",
+            "paperSize": "9 x 12\"",
+            "imageArea": "7 x 10.5\"",
+            "margins": "1\"",
+            "price": "45.00",
+            "editionInfo": "This print size is offered as an open edition. These prints are signed but not numbered, and may be reprinted in the future."
+          },
+          {
+            "name": "fullSize",
+            "paper": "Hahnemuhle Matte Photo Rag (308 gsm)",
+            "ink": "Epson UltraChrome XD Archival Ink",
+            "paperSize": "13 x 17\"",
+            "imageArea": "11 x 14\"",
+            "margins": "1\"",
+            "price": "75.00",
+            "editionInfo": "Full size prints are offered as a limited edition (50 total). Each print in this edition is individually signed and numbered by the artist, and comes with a Certificate of Authenticity."
+          }
+        ],
+        "14 x 11": [
+          {
+            "name": "small",
+            "paper": "Hahnemuhle Matte Photo Rag (308 gsm)",
+            "ink": "Epson UltraChrome XD Archival Ink",
+            "paperSize": "10 x 8\"",
+            "imageArea": "8 x 6.5\"",
+            "margins": "0.875\u20131\"",
+            "price": "30.00",
+            "editionInfo": "This print size is offered as an open edition. These prints are signed but not numbered, and may be reprinted in the future."
+          },
+          {
+            "name": "medium",
+            "paper": "Hahnemuhle Matte Photo Rag (308 gsm)",
+            "ink": "Epson UltraChrome XD Archival Ink",
+            "paperSize": "12 x 9\"",
+            "imageArea": "10.5 x 7\"",
+            "margins": "1\"",
+            "price": "45.00",
+            "editionInfo": "This print size is offered as an open edition. These prints are signed but not numbered, and may be reprinted in the future."
+          },
+          {
+            "name": "fullSize",
+            "paper": "Hahnemuhle Matte Photo Rag (308 gsm)",
+            "ink": "Epson UltraChrome XD Archival Ink",
+            "paperSize": "17 x 13\"",
+            "imageArea": "14 x 11\"",
+            "margins": "1\"",
+            "price": "75.00",
+            "editionInfo": "Full size prints are offered as a limited edition (50 total). Each print in this edition is individually signed and numbered by the artist, and comes with a Certificate of Authenticity."
+          }
+        ],
+        "14 x 17": [
+          {
+            "name": "small",
+            "paper": "Hahnemuhle Matte Photo Rag (308 gsm)",
+            "ink": "Epson UltraChrome XD Archival Ink",
+            "paperSize": "9 x 11\"",
+            "imageArea": "7.4 x 9\"",
+            "margins": "0.75\u20130.8\"",
+            "price": "30.00",
+            "editionInfo": "This print size is offered as an open edition. These prints are signed but not numbered, and may be reprinted in the future."
+          },
+          {
+            "name": "medium",
+            "paper": "Hahnemuhle Matte Photo Rag (308 gsm)",
+            "ink": "Epson UltraChrome XD Archival Ink",
+            "paperSize": "11 x 13.5\"",
+            "imageArea": "9 x 11\"",
+            "margins": "1\"",
+            "price": "50.00",
+            "editionInfo": "This print size is offered as an open edition. These prints are signed but not numbered, and may be reprinted in the future."
+          },
+          {
+            "name": "fullSize",
+            "paper": "Hahnemuhle Matte Photo Rag (308 gsm)",
+            "ink": "Epson UltraChrome XD Archival Ink",
+            "paperSize": "18 x 22\"",
+            "imageArea": "14 x 17\"",
+            "margins": "2\"",
+            "price": "125.00",
+            "editionInfo": "Full size prints are offered as a limited edition (50 total). Each print in this edition is individually signed and numbered by the artist, and comes with a Certificate of Authenticity."
+          }
+        ]
+      }
     },
     "lasercuts": {
       "items": [

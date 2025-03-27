@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
+import autoCert from "anchor-pki/auto-cert/integrations/next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
+const withAutoCert = autoCert({
+  enabledEnv: "development",
+});
 
-export default nextConfig;
+const nextConfig: NextConfig = {};
+
+export default withAutoCert(nextConfig);

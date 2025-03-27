@@ -1,0 +1,10 @@
+[lcl-host]
+realm-apid = 'localhost'
+
+[org]
+apid = 'ben-black-98dde6'
+
+[service]
+apid = 'benblackart'
+category = 'javascript'
+cert-style = 'acme'

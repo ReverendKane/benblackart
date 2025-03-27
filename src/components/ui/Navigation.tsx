@@ -98,7 +98,7 @@ export default function Navigation() {
                 <div key={key}>
                   <NavigationButton
                     section={key}
-                    matchKey={sections[key]}
+                    matchKey={section}
                     activeSection={activeSection}
                     targetPage={`/${section}`}
                     onClick={() => handleSectionChange(section)}
